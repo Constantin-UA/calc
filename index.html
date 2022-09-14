@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Frontend Mentor | Calculator app</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	</head>
+	<body>
+		<section class="main">
+			<div class="main-wrapper">
+				<div class="toggle" id="toggle">
+					<div class="toggle-title">calc</div>
+					<div class="toggle-radiobutton">
+						<div class="toggle-theme">THEME</div>
+						<div class="toggleNubmers">
+							<div class="item">1</div>
+							<div class="item">2</div>
+							<div class="item">3</div>
+						</div>
+						<div class="toggleForm">
+							<input class="check-button" name="group1" type="radio" id="t1" checked />
+							<input class="check-button" name="group1" type="radio" id="t2" />
+							<input class="check-button" name="group1" type="radio" id="t3" />
+						</div>
+					</div>
+				</div>
+				<div class="screen" id="screen">0</div>
+				<div class="keyboard" id="keyboard">
+					<div class="keyboard-grid">
+						<button class="keyboard-grid-item" id="7">7</button>
+						<button class="keyboard-grid-item" id="8">8</button>
+						<button class="keyboard-grid-item" id="9">9</button>
+						<button class="keyboard-grid-item del" id="DEL">DEL</button>
+						<button class="keyboard-grid-item" id="4">4</button>
+						<button class="keyboard-grid-item" id="5">5</button>
+						<button class="keyboard-grid-item" id="6">6</button>
+						<button class="keyboard-grid-item" id="+">+</button>
+						<button class="keyboard-grid-item" id="1">1</button>
+						<button class="keyboard-grid-item" id="2">2</button>
+						<button class="keyboard-grid-item" id="3">3</button>
+						<button class="keyboard-grid-item" id="-">-</button>
+						<button class="keyboard-grid-item" id=".">.</button>
+						<button class="keyboard-grid-item" id="0">0</button>
+						<button class="keyboard-grid-item" id="/">/</button>
+						<button class="keyboard-grid-item" id="*">x</button>
+					</div>
+					<div class="bot-wrapper">
+						<button class="keyboard-grid-item res" id="RESET">RESET</button>
+						<button class="keyboard-grid-item enter" id="ENTER">=</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+			Coded by <a href="#">Konstantin</a>.
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
